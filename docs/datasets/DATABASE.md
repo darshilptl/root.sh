@@ -1,6 +1,6 @@
-# RootGuard Dataset Comparison & Recommended Format
+# Root.sh Dataset Comparison & Recommended Format
 
-**Project:** RootGuard (M.Tech dissertation research)  
+**Project:** Root.sh (M.Tech dissertation research)  
 **Datasets compared:** `data/staging/` (Track 1) vs `data/processed/nl2bash.jsonl` (Track 2)  
 **Purpose:** Deep research comparison to determine the cleanest model-friendly data format  
 **Merge phase:** Excluded from this document (comparison + format recommendation only)

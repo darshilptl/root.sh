@@ -1,6 +1,6 @@
 # Pipeline Flow & Architecture
 
-**Purpose:** Explain the end-to-end RootGuard pipeline from hook to log.
+**Purpose:** Explain the end-to-end Root.sh pipeline from hook to log.
 
 ---
 

@@ -1,6 +1,6 @@
 # Dataset Fundamentals
 
-**Purpose:** Explain the RootGuard dataset in simple terms for presentations and papers.
+**Purpose:** Explain the Root.sh dataset in simple terms for presentations and papers.
 
 ---
 

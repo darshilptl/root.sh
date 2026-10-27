@@ -1,6 +1,6 @@
 # Folder Structure
 
-**Purpose:** Show exactly where every file lives in the RootGuard project.
+**Purpose:** Show exactly where every file lives in the Root.sh project.
 
 ---
 
@@ -23,7 +23,7 @@ root.sh/
 │   ├── review/               # spot_check.csv
 │   └── LICENSES.md           # Third-party license records
 │
-├── src/rootguard/            # All source code
+├── src/root.sh/            # All source code
 │   ├── __init__.py
 │   ├── config.py             # Configuration
 │   ├── daemon.py             # FastAPI + uvicorn daemon
@@ -83,9 +83,9 @@ root.sh/
 
 | Path | Purpose | Gitignored? |
 |------|---------|-------------|
-| `src/rootguard/model/train.py` | Training script | No |
-| `src/rootguard/model/infer.py` | Inference script | No |
-| `src/rootguard/model/model.pkl` | Trained model binary | **Yes** |
+| `src/root.sh/model/train.py` | Training script | No |
+| `src/root.sh/model/infer.py` | Inference script | No |
+| `src/root.sh/model/model.pkl` | Trained model binary | **Yes** |
 | `docs/models/` | Model documentation | No |
 
 ---

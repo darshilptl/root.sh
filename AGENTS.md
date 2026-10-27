@@ -1,4 +1,4 @@
-# RootGuard: Agent Instructions
+# Root.sh: Agent Instructions
 
 ## 1. What this is
 
@@ -80,6 +80,7 @@ Table `records` (local JSONL + SQLite):
 ```
 root.sh/
 ├── AGENTS.md  pyproject.toml  .gitignore  summary.md
+├── .venv/                 # Python virtual environment (uv venv .venv)
 ├── docs/
 │   ├── modules/           # NN-name.md, one per phase
 │   ├── notes/             # fundamentals notes (pure markdown)
@@ -94,7 +95,8 @@ root.sh/
 │   ├── dataset/           # records.jsonl (reviewed), families.json (frozen split)
 │   ├── review/            # spot_check.csv
 │   └── LICENSES.md
-├── src/rootguard/
+├── src/root.sh/           # All source code
+│   ├── __init__.py
 │   ├── config.py daemon.py authz.py features.py intent.py categories.py
 │   ├── db/                # models.py, migrations/
 │   ├── datagen/           # schema.py, convert_nl2bash.py, importer.py
@@ -124,7 +126,7 @@ root.sh/
 
 | # | Module | Gate |
 |---|---|---|
-| 0 | Scaffold, data folders | pytest passes; `rootguard --version` runs; folders exist |
+| 0 | Scaffold, data folders | pytest passes; `root.sh --version` runs; folders exist |
 | 1 | DB schema | migrations run on SQLite; invalid enum rejected by the DB |
 | 2 | Command classifier | 40+ table tests pass; unknown commands never rated safe |
 | 3 | Intent extractor + features | deterministic; extractor accuracy on labeled rows reported |
@@ -137,7 +139,7 @@ root.sh/
 | 10 | Agent integrations | hook behavior verified from official docs; a blocked action does not run |
 | 11 | CLI, TUI, report | init preserves an existing CLAUDE.md/AGENTS.md; report numbers equal direct DB queries |
 
-Per phase: create the branch (section 9) -> write `docs/modules/NN-name.md` (no code) -> audit it against this file -> stop for "APPROVED NN" -> implement -> run the gate -> commit and write the PR title and description (section 9) -> stop for "NEXT".
+Per phase: create the branch (section 9) -> write `docs/modules/NN-name.md` (no code) -> audit it against this file -> stop for "APPROVED NN" -> implement -> **user verifies by hand** -> run the gate -> agent commits only after user approval -> write the PR title and description (section 9) -> stop for "NEXT".
 
 ## 9. Git workflow (trunk-based, solo)
 
@@ -148,8 +150,9 @@ Per phase: create the branch (section 9) -> write `docs/modules/NN-name.md` (no 
 5. **Start from an up-to-date `main`:** `git checkout main`, then `git pull` if a remote exists, then `git checkout -b feature/<module>`.
 6. **Keep branches short-lived.** Merge within days. If `main` changed since branching, report it, merge `main` into the branch and rerun the gate. Never force-push or rebase published commits.
 7. **Commit small and often, and never in a broken state.** Use Conventional Commits: `type(scope): imperative subject`, 72 characters or fewer, no period. Types: `feat fix refactor test docs chore build perf`. The body explains why, and the footer is `Refs: docs/modules/NN-name.md`. Example: `feat(db): add SQLAlchemy schema and initial Alembic migration`.
-8. **Merge through a PR into `main`, even solo, using squash and merge.** The PR title is the commit subject. The description covers what changed, the gate results and open items. Mark unfinished work as a draft PR, and merge only when checks are green. If there is no remote, the author runs `git merge --squash` locally with the same subject.
-9. **The pre-merge checklist replaces a `dev` branch.** Tests pass, lint passes (if configured), the smoke test passes, the phase gate in section 8 passed with real output, and `git status` is clean. No ignored or secret files are committed (`data/external/`, `*.db`, `model.pkl`, `.env`).
+8. **Commit only after user verification.** Agent implements phase -> user verifies by hand -> agent commits only after explicit user approval. Never commit before user sign-off.
+9. **Merge through a PR into `main`, even solo, using squash and merge.** The PR title is the commit subject. The description covers what changed, the gate results and open items. Mark unfinished work as a draft PR, and merge only when checks are green. If there is no remote, the author runs `git merge --squash` locally with the same subject.
+9. **The pre-merge checklist replaces a `dev` branch.** Tests pass, lint passes (if configured), the smoke test passes, the phase gate in section 8 passed with real output, and `git status` is clean. No ignored or secret files are committed (`data/external/`, `*.db`, `model.pkl`, `.env`, `.venv/`).
 10. **Tag every stable release on `main`:** `v0.N.0` after phase N merges. To roll back, revert the squash commit or check out the tag.
 11. **Agents and the author split the steps.** Agents branch, commit, push the feature branch (if a remote exists), write the PR title and description, and stop. The author merges and tags. After the author confirms the merge, the agent deletes the local branch with `git branch -d`, or `-D` after a squash merge because git doesn't see it as merged.
 
@@ -174,3 +177,47 @@ Per phase: create the branch (section 9) -> write `docs/modules/NN-name.md` (no 
 - SQLite driver availability and WAL mode support
 - Claude Code hook behavior and the OpenCode plugin API (`tool.execute.before`, `permission.ask`), from official docs
 - How each agent exposes the user's original request at hook time
+
+## 12. uv & Virtual Environment Setup
+
+### Create virtual environment
+
+```bash
+cd /home/darshil/Desktop/Vs Project/Development/root.sh
+uv venv .venv
+```
+
+### Activate virtual environment
+
+```bash
+# Linux/macOS:
+source .venv/bin/activate
+
+# Windows:
+.venv\Scripts\activate
+```
+
+### Install dependencies
+
+```bash
+uv pip install lightgbm scikit-learn pandas numpy sqlalchemy alembic fastapi uvicorn
+```
+
+### Save exact versions
+
+```bash
+uv pip freeze > requirements.txt
+```
+
+### Run Python with .venv
+
+```bash
+uv run python src/root.sh/model/train.py
+```
+
+### Why .venv?
+
+- Isolates Root.sh dependencies from system Python
+- Reproducible: `uv pip install -r requirements.txt` recreates same environment
+- Clean: delete `.venv` folder to start fresh
+- `uv venv .venv` creates it — uv does not auto-create without this command

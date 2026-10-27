@@ -132,12 +132,12 @@ Per AGENTS.md:
 
 | File | Purpose |
 |------|---------|
-| `src/rootguard/model/train.py` | Train LightGBM + Logistic Regression |
-| `src/rootguard/model/infer.py` | Scoring inference |
-| `src/rootguard/model/model.pkl` | Saved model (gitignored) |
-| `src/rootguard/features.py` | Six feature extraction |
-| `src/rootguard/intent.py` | Intent class extractor (rule-based) |
-| `src/rootguard/datagen/schema.py` | 15-field Record schema |
+| `src/root.sh/model/train.py` | Train LightGBM + Logistic Regression |
+| `src/root.sh/model/infer.py` | Scoring inference |
+| `src/root.sh/model/model.pkl` | Saved model (gitignored) |
+| `src/root.sh/features.py` | Six feature extraction |
+| `src/root.sh/intent.py` | Intent class extractor (rule-based) |
+| `src/root.sh/datagen/schema.py` | 15-field Record schema |
 
 ---
 

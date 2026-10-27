@@ -1,0 +1,21 @@
+{
+  "files.exclude": {
+    "**/.git": false,
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.venv": true,
+    "**/decisions.db": false,
+    "**/model.pkl": true,
+    "**/__init__.py": true,
+    "**/datagen/**": true
+  },
+  "files.watcherExclude": {
+    "**/__pycache__/**": true,
+    "**/*.pyc": true,
+    "**/.venv/**": true,
+    "**/decisions.db": true,
+    "**/datagen/**": true,
+    "**/model.pkl": true
+  },
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python"
+}

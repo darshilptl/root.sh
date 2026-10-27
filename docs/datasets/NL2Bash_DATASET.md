@@ -1,6 +1,6 @@
 # NL2Bash Staged Dataset — Briefing
 
-**Project:** RootGuard (M.Tech dissertation research)  
+**Project:** Root.sh (M.Tech dissertation research)  
 **Scope:** Boundary study of provenance-based defense against irreversible prompt injection in OS-level autonomous agents  
 **File location:** `data/processed/nl2bash.jsonl`  
 **Source:** NL2Bash external corpus (TellinaTool)  
@@ -10,7 +10,7 @@
 
 ## 1. Purpose
 
-The NL2Bash dataset is an external, publicly available corpus of natural-language-to-shell-command pairs. It was converted into RootGuard's 15-field record format to serve as **Track 2** of the two-track dataset expansion. These rows represent real-world (user_request, proposed_action) pairs from a public documentation corpus — all labeled **safe**, all from **user_direct** source, with provenance `nl2bash`.
+The NL2Bash dataset is an external, publicly available corpus of natural-language-to-shell-command pairs. It was converted into Root.sh's 15-field record format to serve as **Track 2** of the two-track dataset expansion. These rows represent real-world (user_request, proposed_action) pairs from a public documentation corpus — all labeled **safe**, all from **user_direct** source, with provenance `nl2bash`.
 
 ---
 

@@ -1,4 +1,7 @@
 data/external/
 data/dataset/*.db
+data/decisions.db
 __pycache__/
 *.pyc
+*.pkl
+.venv/

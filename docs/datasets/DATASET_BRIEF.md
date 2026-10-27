@@ -1,6 +1,6 @@
-# RootGuard Staged Dataset — Briefing
+# Root.sh Staged Dataset — Briefing
 
-**Project:** RootGuard (M.Tech dissertation research)  
+**Project:** Root.sh (M.Tech dissertation research)  
 **Scope:** Boundary study of provenance-based defense against irreversible prompt injection in OS-level autonomous agents  
 **File location:** `data/staging/<pattern>.jsonl`  
 **Status:** Staged (not yet imported into `data/dataset/`)
@@ -200,7 +200,7 @@ A: Exactly one of 17 values describing the **user request** (never the action): 
 ## 11. Directory Layout
 
 ```
-rootguard/
+root.sh/
 ├── AGENTS.md
 ├── DATASET_BRIEF.md            <-- this file
 └── data/

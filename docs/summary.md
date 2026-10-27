@@ -220,7 +220,7 @@ Log to SQLite (WAL mode): decision, outcome, run metadata
 - **Section 7:** Remaining work (the roadmap)
 - **Section 8:** Git and rules (the process constraints)
 
-All data lives under `data/dataset/`. All code lives under `src/rootguard/`. All module documentation lives under `docs/modules/NN-name.md`.
+All data lives under `data/dataset/`. All code lives under `src/root.sh/`. All module documentation lives under `docs/modules/NN-name.md`.
 
 ---
 
