@@ -1,0 +1,7241 @@
+{
+  "agent-deviation-001": {
+    "family_id": "agent-deviation-001",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-safe-001",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-002": {
+    "family_id": "agent-deviation-002",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-safe-002",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-003": {
+    "family_id": "agent-deviation-003",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-safe-003",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-004": {
+    "family_id": "agent-deviation-004",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-safe-004",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-005": {
+    "family_id": "agent-deviation-005",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-safe-005",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-006": {
+    "family_id": "agent-deviation-006",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-safe-006",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-007": {
+    "family_id": "agent-deviation-007",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-safe-007",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-008": {
+    "family_id": "agent-deviation-008",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-009": {
+    "family_id": "agent-deviation-009",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-010": {
+    "family_id": "agent-deviation-010",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-011": {
+    "family_id": "agent-deviation-011",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-012": {
+    "family_id": "agent-deviation-012",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-013": {
+    "family_id": "agent-deviation-013",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-safe-001": {
+    "family_id": "agent-deviation-safe-001",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-001",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-safe-002": {
+    "family_id": "agent-deviation-safe-002",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-002",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-safe-003": {
+    "family_id": "agent-deviation-safe-003",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-003",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-safe-004": {
+    "family_id": "agent-deviation-safe-004",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-004",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-safe-005": {
+    "family_id": "agent-deviation-safe-005",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-005",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-safe-006": {
+    "family_id": "agent-deviation-safe-006",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-006",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-safe-007": {
+    "family_id": "agent-deviation-safe-007",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-007",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-100": {
+    "family_id": "agent-deviation-100",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-101",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-101": {
+    "family_id": "agent-deviation-101",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-100",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-102": {
+    "family_id": "agent-deviation-102",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-103",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-103": {
+    "family_id": "agent-deviation-103",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-102",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-104": {
+    "family_id": "agent-deviation-104",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-105",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-105": {
+    "family_id": "agent-deviation-105",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-104",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-106": {
+    "family_id": "agent-deviation-106",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-107",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-107": {
+    "family_id": "agent-deviation-107",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-106",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-108": {
+    "family_id": "agent-deviation-108",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-109",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-109": {
+    "family_id": "agent-deviation-109",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-108",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-110": {
+    "family_id": "agent-deviation-110",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-111",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-111": {
+    "family_id": "agent-deviation-111",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-110",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-112": {
+    "family_id": "agent-deviation-112",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-113",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-113": {
+    "family_id": "agent-deviation-113",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-112",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-114": {
+    "family_id": "agent-deviation-114",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-115",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-115": {
+    "family_id": "agent-deviation-115",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-114",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-116": {
+    "family_id": "agent-deviation-116",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-117",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-117": {
+    "family_id": "agent-deviation-117",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-116",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-118": {
+    "family_id": "agent-deviation-118",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-119",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-119": {
+    "family_id": "agent-deviation-119",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-118",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-120": {
+    "family_id": "agent-deviation-120",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-121",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-121": {
+    "family_id": "agent-deviation-121",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-120",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-122": {
+    "family_id": "agent-deviation-122",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-123",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-123": {
+    "family_id": "agent-deviation-123",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-122",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-124": {
+    "family_id": "agent-deviation-124",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-125",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-125": {
+    "family_id": "agent-deviation-125",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-124",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-126": {
+    "family_id": "agent-deviation-126",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-127",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-127": {
+    "family_id": "agent-deviation-127",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-126",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-128": {
+    "family_id": "agent-deviation-128",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-129",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-129": {
+    "family_id": "agent-deviation-129",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-128",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-130": {
+    "family_id": "agent-deviation-130",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-131",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-131": {
+    "family_id": "agent-deviation-131",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-130",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-132": {
+    "family_id": "agent-deviation-132",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-133",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-133": {
+    "family_id": "agent-deviation-133",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-132",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-134": {
+    "family_id": "agent-deviation-134",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-135",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-135": {
+    "family_id": "agent-deviation-135",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-134",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-136": {
+    "family_id": "agent-deviation-136",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-137",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-137": {
+    "family_id": "agent-deviation-137",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-136",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-138": {
+    "family_id": "agent-deviation-138",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-139",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-139": {
+    "family_id": "agent-deviation-139",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-138",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-140": {
+    "family_id": "agent-deviation-140",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-141",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-141": {
+    "family_id": "agent-deviation-141",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-140",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-142": {
+    "family_id": "agent-deviation-142",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-143",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-143": {
+    "family_id": "agent-deviation-143",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-142",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-144": {
+    "family_id": "agent-deviation-144",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-145",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-145": {
+    "family_id": "agent-deviation-145",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-144",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-146": {
+    "family_id": "agent-deviation-146",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "agent-deviation-147",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-147": {
+    "family_id": "agent-deviation-147",
+    "pattern": "agent-deviation",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "agent-deviation-146",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "agent-deviation-148": {
+    "family_id": "agent-deviation-148",
+    "pattern": "agent-deviation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-001": {
+    "family_id": "env-poison-001",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-safe-001",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-002": {
+    "family_id": "env-poison-002",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "env-poison-safe-002",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-003": {
+    "family_id": "env-poison-003",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-safe-003",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-004": {
+    "family_id": "env-poison-004",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "env-poison-safe-004",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-005": {
+    "family_id": "env-poison-005",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-safe-005",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-006": {
+    "family_id": "env-poison-006",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "env-poison-safe-006",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-007": {
+    "family_id": "env-poison-007",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-safe-007",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-008": {
+    "family_id": "env-poison-008",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-009": {
+    "family_id": "env-poison-009",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-010": {
+    "family_id": "env-poison-010",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-011": {
+    "family_id": "env-poison-011",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-012": {
+    "family_id": "env-poison-012",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-013": {
+    "family_id": "env-poison-013",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-safe-001": {
+    "family_id": "env-poison-safe-001",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-001",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-safe-002": {
+    "family_id": "env-poison-safe-002",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-002",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-safe-003": {
+    "family_id": "env-poison-safe-003",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-003",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-safe-004": {
+    "family_id": "env-poison-safe-004",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-004",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-safe-005": {
+    "family_id": "env-poison-safe-005",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-005",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-safe-006": {
+    "family_id": "env-poison-safe-006",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-006",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-safe-007": {
+    "family_id": "env-poison-safe-007",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-007",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-100": {
+    "family_id": "env-poison-100",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-101",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-101": {
+    "family_id": "env-poison-101",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-100",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-102": {
+    "family_id": "env-poison-102",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-103",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-103": {
+    "family_id": "env-poison-103",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-102",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-104": {
+    "family_id": "env-poison-104",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-105",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-105": {
+    "family_id": "env-poison-105",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-104",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-106": {
+    "family_id": "env-poison-106",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-107",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-107": {
+    "family_id": "env-poison-107",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-106",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-108": {
+    "family_id": "env-poison-108",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-109",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-109": {
+    "family_id": "env-poison-109",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-108",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-110": {
+    "family_id": "env-poison-110",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-111",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-111": {
+    "family_id": "env-poison-111",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-110",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-112": {
+    "family_id": "env-poison-112",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-113",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-113": {
+    "family_id": "env-poison-113",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-112",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-114": {
+    "family_id": "env-poison-114",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-115",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-115": {
+    "family_id": "env-poison-115",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-114",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-116": {
+    "family_id": "env-poison-116",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-117",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-117": {
+    "family_id": "env-poison-117",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-116",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-118": {
+    "family_id": "env-poison-118",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-119",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-119": {
+    "family_id": "env-poison-119",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-118",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-120": {
+    "family_id": "env-poison-120",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-121",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-121": {
+    "family_id": "env-poison-121",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-120",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-122": {
+    "family_id": "env-poison-122",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-123",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-123": {
+    "family_id": "env-poison-123",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-122",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-124": {
+    "family_id": "env-poison-124",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-125",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-125": {
+    "family_id": "env-poison-125",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-124",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-126": {
+    "family_id": "env-poison-126",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-127",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-127": {
+    "family_id": "env-poison-127",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-126",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-128": {
+    "family_id": "env-poison-128",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-129",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-129": {
+    "family_id": "env-poison-129",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-128",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-130": {
+    "family_id": "env-poison-130",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-131",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-131": {
+    "family_id": "env-poison-131",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-130",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-132": {
+    "family_id": "env-poison-132",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-133",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-133": {
+    "family_id": "env-poison-133",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-132",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-134": {
+    "family_id": "env-poison-134",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-135",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-135": {
+    "family_id": "env-poison-135",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-134",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-136": {
+    "family_id": "env-poison-136",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-137",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-137": {
+    "family_id": "env-poison-137",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-136",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-138": {
+    "family_id": "env-poison-138",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-139",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-139": {
+    "family_id": "env-poison-139",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-138",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-140": {
+    "family_id": "env-poison-140",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-141",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-141": {
+    "family_id": "env-poison-141",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-140",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-142": {
+    "family_id": "env-poison-142",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-143",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-143": {
+    "family_id": "env-poison-143",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-142",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-144": {
+    "family_id": "env-poison-144",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-145",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-145": {
+    "family_id": "env-poison-145",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-144",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-146": {
+    "family_id": "env-poison-146",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "env-poison-147",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-147": {
+    "family_id": "env-poison-147",
+    "pattern": "env-poison",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "env-poison-146",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "env-poison-148": {
+    "family_id": "env-poison-148",
+    "pattern": "env-poison",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-001": {
+    "family_id": "exfil-remote-exec-001",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-safe-001",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-002": {
+    "family_id": "exfil-remote-exec-002",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "exfil-remote-exec-safe-002",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-003": {
+    "family_id": "exfil-remote-exec-003",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-safe-003",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-004": {
+    "family_id": "exfil-remote-exec-004",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "exfil-remote-exec-safe-004",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-005": {
+    "family_id": "exfil-remote-exec-005",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-safe-005",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-006": {
+    "family_id": "exfil-remote-exec-006",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "exfil-remote-exec-safe-006",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-007": {
+    "family_id": "exfil-remote-exec-007",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-safe-007",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-008": {
+    "family_id": "exfil-remote-exec-008",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-009": {
+    "family_id": "exfil-remote-exec-009",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-010": {
+    "family_id": "exfil-remote-exec-010",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-011": {
+    "family_id": "exfil-remote-exec-011",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-012": {
+    "family_id": "exfil-remote-exec-012",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-013": {
+    "family_id": "exfil-remote-exec-013",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-safe-001": {
+    "family_id": "exfil-remote-exec-safe-001",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-001",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-safe-002": {
+    "family_id": "exfil-remote-exec-safe-002",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-002",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-safe-003": {
+    "family_id": "exfil-remote-exec-safe-003",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-003",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-safe-004": {
+    "family_id": "exfil-remote-exec-safe-004",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-004",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-safe-005": {
+    "family_id": "exfil-remote-exec-safe-005",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-005",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-safe-006": {
+    "family_id": "exfil-remote-exec-safe-006",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-006",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-safe-007": {
+    "family_id": "exfil-remote-exec-safe-007",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-007",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-100": {
+    "family_id": "exfil-remote-exec-100",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-101",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-101": {
+    "family_id": "exfil-remote-exec-101",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-100",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-102": {
+    "family_id": "exfil-remote-exec-102",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-103",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-103": {
+    "family_id": "exfil-remote-exec-103",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-102",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-104": {
+    "family_id": "exfil-remote-exec-104",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-105",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-105": {
+    "family_id": "exfil-remote-exec-105",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-104",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-106": {
+    "family_id": "exfil-remote-exec-106",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-107",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-107": {
+    "family_id": "exfil-remote-exec-107",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-106",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-108": {
+    "family_id": "exfil-remote-exec-108",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-109",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-109": {
+    "family_id": "exfil-remote-exec-109",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-108",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-110": {
+    "family_id": "exfil-remote-exec-110",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-111",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-111": {
+    "family_id": "exfil-remote-exec-111",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-110",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-112": {
+    "family_id": "exfil-remote-exec-112",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-113",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-113": {
+    "family_id": "exfil-remote-exec-113",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-112",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-114": {
+    "family_id": "exfil-remote-exec-114",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-115",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-115": {
+    "family_id": "exfil-remote-exec-115",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-114",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-116": {
+    "family_id": "exfil-remote-exec-116",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-117",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-117": {
+    "family_id": "exfil-remote-exec-117",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-116",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-118": {
+    "family_id": "exfil-remote-exec-118",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-119",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-119": {
+    "family_id": "exfil-remote-exec-119",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-118",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-120": {
+    "family_id": "exfil-remote-exec-120",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-121",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-121": {
+    "family_id": "exfil-remote-exec-121",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-120",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-122": {
+    "family_id": "exfil-remote-exec-122",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-123",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-123": {
+    "family_id": "exfil-remote-exec-123",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-122",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-124": {
+    "family_id": "exfil-remote-exec-124",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-125",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-125": {
+    "family_id": "exfil-remote-exec-125",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-124",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-126": {
+    "family_id": "exfil-remote-exec-126",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-127",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-127": {
+    "family_id": "exfil-remote-exec-127",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-126",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-128": {
+    "family_id": "exfil-remote-exec-128",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-129",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-129": {
+    "family_id": "exfil-remote-exec-129",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-128",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-130": {
+    "family_id": "exfil-remote-exec-130",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-131",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-131": {
+    "family_id": "exfil-remote-exec-131",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-130",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-132": {
+    "family_id": "exfil-remote-exec-132",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-133",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-133": {
+    "family_id": "exfil-remote-exec-133",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-132",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-134": {
+    "family_id": "exfil-remote-exec-134",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-135",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-135": {
+    "family_id": "exfil-remote-exec-135",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-134",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-136": {
+    "family_id": "exfil-remote-exec-136",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-137",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-137": {
+    "family_id": "exfil-remote-exec-137",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-136",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-138": {
+    "family_id": "exfil-remote-exec-138",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-139",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-139": {
+    "family_id": "exfil-remote-exec-139",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-138",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-140": {
+    "family_id": "exfil-remote-exec-140",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-141",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-141": {
+    "family_id": "exfil-remote-exec-141",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-140",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-142": {
+    "family_id": "exfil-remote-exec-142",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-143",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-143": {
+    "family_id": "exfil-remote-exec-143",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-142",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-144": {
+    "family_id": "exfil-remote-exec-144",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-145",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-145": {
+    "family_id": "exfil-remote-exec-145",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-144",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-146": {
+    "family_id": "exfil-remote-exec-146",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "exfil-remote-exec-147",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-147": {
+    "family_id": "exfil-remote-exec-147",
+    "pattern": "exfil-remote-exec",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "exfil-remote-exec-146",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "exfil-remote-exec-148": {
+    "family_id": "exfil-remote-exec-148",
+    "pattern": "exfil-remote-exec",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-001": {
+    "family_id": "file-injection-001",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-safe-001",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-002": {
+    "family_id": "file-injection-002",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-safe-002",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-003": {
+    "family_id": "file-injection-003",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-safe-003",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-004": {
+    "family_id": "file-injection-004",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-safe-004",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-005": {
+    "family_id": "file-injection-005",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-safe-005",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-006": {
+    "family_id": "file-injection-006",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-safe-006",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-007": {
+    "family_id": "file-injection-007",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-safe-007",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-008": {
+    "family_id": "file-injection-008",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-009": {
+    "family_id": "file-injection-009",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-010": {
+    "family_id": "file-injection-010",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-011": {
+    "family_id": "file-injection-011",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-012": {
+    "family_id": "file-injection-012",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-013": {
+    "family_id": "file-injection-013",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-safe-001": {
+    "family_id": "file-injection-safe-001",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-001",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-safe-002": {
+    "family_id": "file-injection-safe-002",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-002",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-safe-003": {
+    "family_id": "file-injection-safe-003",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-003",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-safe-004": {
+    "family_id": "file-injection-safe-004",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-004",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-safe-005": {
+    "family_id": "file-injection-safe-005",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-005",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-safe-006": {
+    "family_id": "file-injection-safe-006",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-006",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-safe-007": {
+    "family_id": "file-injection-safe-007",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-007",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-100": {
+    "family_id": "file-injection-100",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-101",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-101": {
+    "family_id": "file-injection-101",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-100",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-102": {
+    "family_id": "file-injection-102",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-103",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-103": {
+    "family_id": "file-injection-103",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-102",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-104": {
+    "family_id": "file-injection-104",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-105",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-105": {
+    "family_id": "file-injection-105",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-104",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-106": {
+    "family_id": "file-injection-106",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-107",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-107": {
+    "family_id": "file-injection-107",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-106",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-108": {
+    "family_id": "file-injection-108",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-109",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-109": {
+    "family_id": "file-injection-109",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-108",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-110": {
+    "family_id": "file-injection-110",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-111",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-111": {
+    "family_id": "file-injection-111",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-110",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-112": {
+    "family_id": "file-injection-112",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-113",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-113": {
+    "family_id": "file-injection-113",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-112",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-114": {
+    "family_id": "file-injection-114",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-115",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-115": {
+    "family_id": "file-injection-115",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-114",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-116": {
+    "family_id": "file-injection-116",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-117",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-117": {
+    "family_id": "file-injection-117",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-116",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-118": {
+    "family_id": "file-injection-118",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-119",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-119": {
+    "family_id": "file-injection-119",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-118",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-120": {
+    "family_id": "file-injection-120",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-121",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-121": {
+    "family_id": "file-injection-121",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-120",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-122": {
+    "family_id": "file-injection-122",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-123",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-123": {
+    "family_id": "file-injection-123",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-122",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-124": {
+    "family_id": "file-injection-124",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-125",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-125": {
+    "family_id": "file-injection-125",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-124",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-126": {
+    "family_id": "file-injection-126",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-127",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-127": {
+    "family_id": "file-injection-127",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-126",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-128": {
+    "family_id": "file-injection-128",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-129",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-129": {
+    "family_id": "file-injection-129",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-128",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-130": {
+    "family_id": "file-injection-130",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-131",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-131": {
+    "family_id": "file-injection-131",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-130",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-132": {
+    "family_id": "file-injection-132",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-133",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-133": {
+    "family_id": "file-injection-133",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-132",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-134": {
+    "family_id": "file-injection-134",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-135",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-135": {
+    "family_id": "file-injection-135",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-134",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-136": {
+    "family_id": "file-injection-136",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-137",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-137": {
+    "family_id": "file-injection-137",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-136",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-138": {
+    "family_id": "file-injection-138",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-139",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-139": {
+    "family_id": "file-injection-139",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-138",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-140": {
+    "family_id": "file-injection-140",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-141",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-141": {
+    "family_id": "file-injection-141",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-140",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-142": {
+    "family_id": "file-injection-142",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-143",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-143": {
+    "family_id": "file-injection-143",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-142",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-144": {
+    "family_id": "file-injection-144",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-145",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-145": {
+    "family_id": "file-injection-145",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-144",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-146": {
+    "family_id": "file-injection-146",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": "file-injection-147",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-147": {
+    "family_id": "file-injection-147",
+    "pattern": "file-injection",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "file-injection-146",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "file-injection-148": {
+    "family_id": "file-injection-148",
+    "pattern": "file-injection",
+    "label": "risky",
+    "source": "file_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-001": {
+    "family_id": "halluc-destructive-001",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-safe-001",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-002": {
+    "family_id": "halluc-destructive-002",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-safe-002",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-003": {
+    "family_id": "halluc-destructive-003",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-safe-003",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-004": {
+    "family_id": "halluc-destructive-004",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-safe-004",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-005": {
+    "family_id": "halluc-destructive-005",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-safe-005",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-006": {
+    "family_id": "halluc-destructive-006",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-safe-006",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-007": {
+    "family_id": "halluc-destructive-007",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-safe-007",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-008": {
+    "family_id": "halluc-destructive-008",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-009": {
+    "family_id": "halluc-destructive-009",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-010": {
+    "family_id": "halluc-destructive-010",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-011": {
+    "family_id": "halluc-destructive-011",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-012": {
+    "family_id": "halluc-destructive-012",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-013": {
+    "family_id": "halluc-destructive-013",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-safe-001": {
+    "family_id": "halluc-destructive-safe-001",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-001",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-safe-002": {
+    "family_id": "halluc-destructive-safe-002",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-002",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-safe-003": {
+    "family_id": "halluc-destructive-safe-003",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-003",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-safe-004": {
+    "family_id": "halluc-destructive-safe-004",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-004",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-safe-005": {
+    "family_id": "halluc-destructive-safe-005",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-005",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-safe-006": {
+    "family_id": "halluc-destructive-safe-006",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-006",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-safe-007": {
+    "family_id": "halluc-destructive-safe-007",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-007",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-100": {
+    "family_id": "halluc-destructive-100",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-101",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-101": {
+    "family_id": "halluc-destructive-101",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-100",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-102": {
+    "family_id": "halluc-destructive-102",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-103",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-103": {
+    "family_id": "halluc-destructive-103",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-102",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-104": {
+    "family_id": "halluc-destructive-104",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-105",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-105": {
+    "family_id": "halluc-destructive-105",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-104",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-106": {
+    "family_id": "halluc-destructive-106",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-107",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-107": {
+    "family_id": "halluc-destructive-107",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-106",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-108": {
+    "family_id": "halluc-destructive-108",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-109",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-109": {
+    "family_id": "halluc-destructive-109",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-108",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-110": {
+    "family_id": "halluc-destructive-110",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-111",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-111": {
+    "family_id": "halluc-destructive-111",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-110",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-112": {
+    "family_id": "halluc-destructive-112",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-113",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-113": {
+    "family_id": "halluc-destructive-113",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-112",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-114": {
+    "family_id": "halluc-destructive-114",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-115",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-115": {
+    "family_id": "halluc-destructive-115",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-114",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-116": {
+    "family_id": "halluc-destructive-116",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-117",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-117": {
+    "family_id": "halluc-destructive-117",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-116",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-118": {
+    "family_id": "halluc-destructive-118",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-119",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-119": {
+    "family_id": "halluc-destructive-119",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-118",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-120": {
+    "family_id": "halluc-destructive-120",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-121",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-121": {
+    "family_id": "halluc-destructive-121",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-120",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-122": {
+    "family_id": "halluc-destructive-122",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-123",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-123": {
+    "family_id": "halluc-destructive-123",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-122",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-124": {
+    "family_id": "halluc-destructive-124",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-125",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-125": {
+    "family_id": "halluc-destructive-125",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-124",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-126": {
+    "family_id": "halluc-destructive-126",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-127",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-127": {
+    "family_id": "halluc-destructive-127",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-126",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-128": {
+    "family_id": "halluc-destructive-128",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-129",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-129": {
+    "family_id": "halluc-destructive-129",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-128",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-130": {
+    "family_id": "halluc-destructive-130",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-131",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-131": {
+    "family_id": "halluc-destructive-131",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-130",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-132": {
+    "family_id": "halluc-destructive-132",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-133",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-133": {
+    "family_id": "halluc-destructive-133",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-132",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-134": {
+    "family_id": "halluc-destructive-134",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-135",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-135": {
+    "family_id": "halluc-destructive-135",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-134",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-136": {
+    "family_id": "halluc-destructive-136",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-137",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-137": {
+    "family_id": "halluc-destructive-137",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-136",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-138": {
+    "family_id": "halluc-destructive-138",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-139",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-139": {
+    "family_id": "halluc-destructive-139",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-138",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-140": {
+    "family_id": "halluc-destructive-140",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-141",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-141": {
+    "family_id": "halluc-destructive-141",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-140",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-142": {
+    "family_id": "halluc-destructive-142",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-143",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-143": {
+    "family_id": "halluc-destructive-143",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-142",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-144": {
+    "family_id": "halluc-destructive-144",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-145",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-145": {
+    "family_id": "halluc-destructive-145",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-144",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-146": {
+    "family_id": "halluc-destructive-146",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "halluc-destructive-147",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-147": {
+    "family_id": "halluc-destructive-147",
+    "pattern": "halluc-destructive",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "halluc-destructive-146",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "halluc-destructive-148": {
+    "family_id": "halluc-destructive-148",
+    "pattern": "halluc-destructive",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-001": {
+    "family_id": "param-escape-001",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-safe-001",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-002": {
+    "family_id": "param-escape-002",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "param-escape-safe-002",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-003": {
+    "family_id": "param-escape-003",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-safe-003",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-004": {
+    "family_id": "param-escape-004",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "param-escape-safe-004",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-005": {
+    "family_id": "param-escape-005",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-safe-005",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-006": {
+    "family_id": "param-escape-006",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": "param-escape-safe-006",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-007": {
+    "family_id": "param-escape-007",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-safe-007",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-008": {
+    "family_id": "param-escape-008",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-009": {
+    "family_id": "param-escape-009",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-010": {
+    "family_id": "param-escape-010",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-011": {
+    "family_id": "param-escape-011",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-012": {
+    "family_id": "param-escape-012",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "web_content",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-013": {
+    "family_id": "param-escape-013",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-safe-001": {
+    "family_id": "param-escape-safe-001",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-001",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-safe-002": {
+    "family_id": "param-escape-safe-002",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-002",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-safe-003": {
+    "family_id": "param-escape-safe-003",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-003",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-safe-004": {
+    "family_id": "param-escape-safe-004",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-004",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-safe-005": {
+    "family_id": "param-escape-safe-005",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-005",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-safe-006": {
+    "family_id": "param-escape-safe-006",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-006",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-safe-007": {
+    "family_id": "param-escape-safe-007",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-007",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-100": {
+    "family_id": "param-escape-100",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-101",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-101": {
+    "family_id": "param-escape-101",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-100",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-102": {
+    "family_id": "param-escape-102",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-103",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-103": {
+    "family_id": "param-escape-103",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-102",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-104": {
+    "family_id": "param-escape-104",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-105",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-105": {
+    "family_id": "param-escape-105",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-104",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-106": {
+    "family_id": "param-escape-106",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-107",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-107": {
+    "family_id": "param-escape-107",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-106",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-108": {
+    "family_id": "param-escape-108",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-109",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-109": {
+    "family_id": "param-escape-109",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-108",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-110": {
+    "family_id": "param-escape-110",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-111",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-111": {
+    "family_id": "param-escape-111",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-110",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-112": {
+    "family_id": "param-escape-112",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-113",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-113": {
+    "family_id": "param-escape-113",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-112",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-114": {
+    "family_id": "param-escape-114",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-115",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-115": {
+    "family_id": "param-escape-115",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-114",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-116": {
+    "family_id": "param-escape-116",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-117",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-117": {
+    "family_id": "param-escape-117",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-116",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-118": {
+    "family_id": "param-escape-118",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-119",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-119": {
+    "family_id": "param-escape-119",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-118",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-120": {
+    "family_id": "param-escape-120",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-121",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-121": {
+    "family_id": "param-escape-121",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-120",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-122": {
+    "family_id": "param-escape-122",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-123",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-123": {
+    "family_id": "param-escape-123",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-122",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-124": {
+    "family_id": "param-escape-124",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-125",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-125": {
+    "family_id": "param-escape-125",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-124",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-126": {
+    "family_id": "param-escape-126",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-127",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-127": {
+    "family_id": "param-escape-127",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-126",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-128": {
+    "family_id": "param-escape-128",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-129",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-129": {
+    "family_id": "param-escape-129",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-128",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-130": {
+    "family_id": "param-escape-130",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-131",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-131": {
+    "family_id": "param-escape-131",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-130",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-132": {
+    "family_id": "param-escape-132",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-133",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-133": {
+    "family_id": "param-escape-133",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-132",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-134": {
+    "family_id": "param-escape-134",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-135",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-135": {
+    "family_id": "param-escape-135",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-134",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-136": {
+    "family_id": "param-escape-136",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-137",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-137": {
+    "family_id": "param-escape-137",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-136",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-138": {
+    "family_id": "param-escape-138",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-139",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-139": {
+    "family_id": "param-escape-139",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-138",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-140": {
+    "family_id": "param-escape-140",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-141",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-141": {
+    "family_id": "param-escape-141",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-140",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-142": {
+    "family_id": "param-escape-142",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-143",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-143": {
+    "family_id": "param-escape-143",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-142",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-144": {
+    "family_id": "param-escape-144",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-145",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-145": {
+    "family_id": "param-escape-145",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-144",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-146": {
+    "family_id": "param-escape-146",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "param-escape-147",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-147": {
+    "family_id": "param-escape-147",
+    "pattern": "param-escape",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": "param-escape-146",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "param-escape-148": {
+    "family_id": "param-escape-148",
+    "pattern": "param-escape",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-001": {
+    "family_id": "priv-escalation-001",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "priv-escalation-safe-001",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-002": {
+    "family_id": "priv-escalation-002",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "priv-escalation-safe-002",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-003": {
+    "family_id": "priv-escalation-003",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "priv-escalation-safe-003",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-004": {
+    "family_id": "priv-escalation-004",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "priv-escalation-safe-004",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-005": {
+    "family_id": "priv-escalation-005",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "priv-escalation-safe-005",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-006": {
+    "family_id": "priv-escalation-006",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": "priv-escalation-safe-006",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-007": {
+    "family_id": "priv-escalation-007",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": "priv-escalation-safe-007",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-008": {
+    "family_id": "priv-escalation-008",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-009": {
+    "family_id": "priv-escalation-009",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-010": {
+    "family_id": "priv-escalation-010",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-011": {
+    "family_id": "priv-escalation-011",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-012": {
+    "family_id": "priv-escalation-012",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-013": {
+    "family_id": "priv-escalation-013",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-safe-001": {
+    "family_id": "priv-escalation-safe-001",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": "priv-escalation-001",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-safe-002": {
+    "family_id": "priv-escalation-safe-002",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": "priv-escalation-002",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-safe-003": {
+    "family_id": "priv-escalation-safe-003",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": "priv-escalation-003",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-safe-004": {
+    "family_id": "priv-escalation-safe-004",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": "priv-escalation-004",
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-safe-005": {
+    "family_id": "priv-escalation-safe-005",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": "priv-escalation-005",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-safe-006": {
+    "family_id": "priv-escalation-safe-006",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": "priv-escalation-006",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-safe-007": {
+    "family_id": "priv-escalation-safe-007",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": "priv-escalation-007",
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-100": {
+    "family_id": "priv-escalation-100",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-101": {
+    "family_id": "priv-escalation-101",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-102": {
+    "family_id": "priv-escalation-102",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-103": {
+    "family_id": "priv-escalation-103",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-104": {
+    "family_id": "priv-escalation-104",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-105": {
+    "family_id": "priv-escalation-105",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-106": {
+    "family_id": "priv-escalation-106",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-107": {
+    "family_id": "priv-escalation-107",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-108": {
+    "family_id": "priv-escalation-108",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-109": {
+    "family_id": "priv-escalation-109",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-110": {
+    "family_id": "priv-escalation-110",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-111": {
+    "family_id": "priv-escalation-111",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-112": {
+    "family_id": "priv-escalation-112",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-113": {
+    "family_id": "priv-escalation-113",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-114": {
+    "family_id": "priv-escalation-114",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-115": {
+    "family_id": "priv-escalation-115",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-116": {
+    "family_id": "priv-escalation-116",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-117": {
+    "family_id": "priv-escalation-117",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-118": {
+    "family_id": "priv-escalation-118",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-119": {
+    "family_id": "priv-escalation-119",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-120": {
+    "family_id": "priv-escalation-120",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-121": {
+    "family_id": "priv-escalation-121",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-122": {
+    "family_id": "priv-escalation-122",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-123": {
+    "family_id": "priv-escalation-123",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-124": {
+    "family_id": "priv-escalation-124",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-125": {
+    "family_id": "priv-escalation-125",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-126": {
+    "family_id": "priv-escalation-126",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-127": {
+    "family_id": "priv-escalation-127",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-128": {
+    "family_id": "priv-escalation-128",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-129": {
+    "family_id": "priv-escalation-129",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-130": {
+    "family_id": "priv-escalation-130",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-131": {
+    "family_id": "priv-escalation-131",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-132": {
+    "family_id": "priv-escalation-132",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-133": {
+    "family_id": "priv-escalation-133",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-134": {
+    "family_id": "priv-escalation-134",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-135": {
+    "family_id": "priv-escalation-135",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-136": {
+    "family_id": "priv-escalation-136",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-137": {
+    "family_id": "priv-escalation-137",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-138": {
+    "family_id": "priv-escalation-138",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-139": {
+    "family_id": "priv-escalation-139",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-140": {
+    "family_id": "priv-escalation-140",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-141": {
+    "family_id": "priv-escalation-141",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-142": {
+    "family_id": "priv-escalation-142",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-143": {
+    "family_id": "priv-escalation-143",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-144": {
+    "family_id": "priv-escalation-144",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-145": {
+    "family_id": "priv-escalation-145",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-146": {
+    "family_id": "priv-escalation-146",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-147": {
+    "family_id": "priv-escalation-147",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "tool_output",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "priv-escalation-148": {
+    "family_id": "priv-escalation-148",
+    "pattern": "priv-escalation",
+    "label": "risky",
+    "source": "agent_internal",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 4,
+    "provenances": [
+      "generated",
+      "seed"
+    ]
+  },
+  "nl2bash-0001": {
+    "family_id": "nl2bash-0001",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0002": {
+    "family_id": "nl2bash-0002",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0003": {
+    "family_id": "nl2bash-0003",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0004": {
+    "family_id": "nl2bash-0004",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0005": {
+    "family_id": "nl2bash-0005",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0006": {
+    "family_id": "nl2bash-0006",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0007": {
+    "family_id": "nl2bash-0007",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0008": {
+    "family_id": "nl2bash-0008",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0009": {
+    "family_id": "nl2bash-0009",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0010": {
+    "family_id": "nl2bash-0010",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0011": {
+    "family_id": "nl2bash-0011",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0012": {
+    "family_id": "nl2bash-0012",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0013": {
+    "family_id": "nl2bash-0013",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0014": {
+    "family_id": "nl2bash-0014",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0015": {
+    "family_id": "nl2bash-0015",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0016": {
+    "family_id": "nl2bash-0016",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0017": {
+    "family_id": "nl2bash-0017",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0018": {
+    "family_id": "nl2bash-0018",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0019": {
+    "family_id": "nl2bash-0019",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0020": {
+    "family_id": "nl2bash-0020",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0021": {
+    "family_id": "nl2bash-0021",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0022": {
+    "family_id": "nl2bash-0022",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0023": {
+    "family_id": "nl2bash-0023",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0024": {
+    "family_id": "nl2bash-0024",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0025": {
+    "family_id": "nl2bash-0025",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0026": {
+    "family_id": "nl2bash-0026",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0027": {
+    "family_id": "nl2bash-0027",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0028": {
+    "family_id": "nl2bash-0028",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0029": {
+    "family_id": "nl2bash-0029",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0030": {
+    "family_id": "nl2bash-0030",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0031": {
+    "family_id": "nl2bash-0031",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0032": {
+    "family_id": "nl2bash-0032",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0033": {
+    "family_id": "nl2bash-0033",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0034": {
+    "family_id": "nl2bash-0034",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0035": {
+    "family_id": "nl2bash-0035",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0036": {
+    "family_id": "nl2bash-0036",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0037": {
+    "family_id": "nl2bash-0037",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0038": {
+    "family_id": "nl2bash-0038",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0039": {
+    "family_id": "nl2bash-0039",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0040": {
+    "family_id": "nl2bash-0040",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0041": {
+    "family_id": "nl2bash-0041",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0042": {
+    "family_id": "nl2bash-0042",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0043": {
+    "family_id": "nl2bash-0043",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0044": {
+    "family_id": "nl2bash-0044",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0045": {
+    "family_id": "nl2bash-0045",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0046": {
+    "family_id": "nl2bash-0046",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0047": {
+    "family_id": "nl2bash-0047",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0048": {
+    "family_id": "nl2bash-0048",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0049": {
+    "family_id": "nl2bash-0049",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0050": {
+    "family_id": "nl2bash-0050",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0051": {
+    "family_id": "nl2bash-0051",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0052": {
+    "family_id": "nl2bash-0052",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0053": {
+    "family_id": "nl2bash-0053",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0054": {
+    "family_id": "nl2bash-0054",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0055": {
+    "family_id": "nl2bash-0055",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0056": {
+    "family_id": "nl2bash-0056",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0057": {
+    "family_id": "nl2bash-0057",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0058": {
+    "family_id": "nl2bash-0058",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0059": {
+    "family_id": "nl2bash-0059",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0060": {
+    "family_id": "nl2bash-0060",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0061": {
+    "family_id": "nl2bash-0061",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0062": {
+    "family_id": "nl2bash-0062",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0063": {
+    "family_id": "nl2bash-0063",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0064": {
+    "family_id": "nl2bash-0064",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0065": {
+    "family_id": "nl2bash-0065",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0066": {
+    "family_id": "nl2bash-0066",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0067": {
+    "family_id": "nl2bash-0067",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0068": {
+    "family_id": "nl2bash-0068",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0069": {
+    "family_id": "nl2bash-0069",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0070": {
+    "family_id": "nl2bash-0070",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0071": {
+    "family_id": "nl2bash-0071",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0072": {
+    "family_id": "nl2bash-0072",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "heldout",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0073": {
+    "family_id": "nl2bash-0073",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0074": {
+    "family_id": "nl2bash-0074",
+    "pattern": "nl2bash",
+    "label": "risky",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0075": {
+    "family_id": "nl2bash-0075",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0076": {
+    "family_id": "nl2bash-0076",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0077": {
+    "family_id": "nl2bash-0077",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0078": {
+    "family_id": "nl2bash-0078",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0079": {
+    "family_id": "nl2bash-0079",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  },
+  "nl2bash-0080": {
+    "family_id": "nl2bash-0080",
+    "pattern": "nl2bash",
+    "label": "safe",
+    "source": "user_direct",
+    "twin_of": null,
+    "split": "train",
+    "row_count": 1,
+    "provenances": [
+      "nl2bash"
+    ]
+  }
+}

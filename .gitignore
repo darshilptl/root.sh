@@ -1,0 +1,4 @@
+data/external/
+data/dataset/*.db
+__pycache__/
+*.pyc

@@ -1,6 +1,7 @@
 # RootGuard: Agent Instructions
 
 ## 1. What this is
+
 Research project (M.Tech dissertation), not a product.
 **Beyond the Chatbox: A Boundary Study of Provenance-Based Defense Against Irreversible Prompt Injection in OS-Level Autonomous Agents.**
 Question: do known defenses (source tagging, isolation, capability checks) hold for agents that run real OS commands, where mistakes are irreversible, and where do they fail?
@@ -8,6 +9,7 @@ Wording: write "defense layer" or "scoring algorithm", never "tool" or "product"
 Honesty: this measures a defense. It does not claim to solve prompt injection. Never invent results.
 
 ## 2. What we build
+
 A defense layer that sits beside an agent. For each proposed command it receives `(user_request, proposed_action, source)` and returns allow / confirm / block, a risk score and a reason.
 1. LightGBM classifier over six features. No LLM judges an LLM.
 2. Staged authorization, default deny.
@@ -16,6 +18,7 @@ A defense layer that sits beside an agent. For each proposed command it receives
 Scope: Linux only (Ubuntu 26.04), agents with direct command execution. Out: chat, GUI and payment agents.
 
 ## 3. Runtime flow
+
 ```
 agent proposes command -> hook -> POST /score {user_request, proposed_action, source}
  -> classify action (action_class, reversibility, scope, privilege)
@@ -26,6 +29,7 @@ agent proposes command -> hook -> POST /score {user_request, proposed_action, so
 Any error, missing model or malformed input means **block**.
 
 ## 4. Logic
+
 Features (exactly these, in this order):
 
 | # | Feature | Value |
@@ -42,11 +46,12 @@ Features (exactly these, in this order):
 - Baselines to report: majority class; categories-only rule; hand-written rule on the same features; request-only text classifier (must stay near chance: style-leak audit).
 
 ## 5. Dataset
-Table `records` (Supabase Postgres):
+
+Table `records` (local JSONL + SQLite):
 
 | Field | Values |
 |---|---|
-| id | uuid |
+| id | uuid v4 |
 | family_id | `<pattern>-NNN`; twins `<pattern>-safe-NNN` |
 | twin_of | family_id or null (symmetric) |
 | user_request | text |
@@ -71,47 +76,56 @@ Table `records` (Supabase Postgres):
 - Seeds, variants and twins are drafted by an offline agent and reviewed by the author.
 
 ## 6. Folder structure
+
 ```
-rootguard/
-├── AGENTS.md  pyproject.toml  .gitignore
-├── docs/modules/               # NN-name.md, one per phase
+root.sh/
+├── AGENTS.md  pyproject.toml  .gitignore  summary.md
+├── docs/
+│   ├── modules/           # NN-name.md, one per phase
+│   ├── notes/             # fundamentals notes (pure markdown)
+│   ├── datasets/          # dataset info
+│   ├── models/            # model info
+│   ├── summaries/         # summaries
+│   └── BLOCKERS.md
 ├── data/
-│   ├── external/               # raw third-party (gitignored): nl2bash/
-│   ├── processed/              # converted external data: nl2bash.jsonl
-│   ├── staging/                # agent-generated rows awaiting review
-│   ├── dataset/                # records.jsonl (reviewed), families.json (frozen split)
-│   ├── review/                 # spot_check.csv
+│   ├── external/          # raw third-party (gitignored): nl2bash/
+│   ├── processed/         # converted external data: nl2bash.jsonl
+│   ├── staging/           # agent-generated rows awaiting review
+│   ├── dataset/           # records.jsonl (reviewed), families.json (frozen split)
+│   ├── review/            # spot_check.csv
 │   └── LICENSES.md
 ├── src/rootguard/
 │   ├── config.py daemon.py authz.py features.py intent.py categories.py
-│   ├── db/                     # models.py, migrations/
-│   ├── datagen/                # schema.py, convert_nl2bash.py, importer.py
-│   ├── model/                  # train.py, infer.py, model.pkl (gitignored)
-│   ├── enforce/                # seccomp.py, apparmor/
-│   ├── integrations/           # hook adapters
-│   └── cli/                    # app.py, commands/, ui/
-├── sandbox/                    # synthetic files for attack scenarios
-├── eval/                       # scenario harness, metrics
+│   ├── db/                # models.py, migrations/
+│   ├── datagen/           # schema.py, convert_nl2bash.py, importer.py
+│   ├── model/             # train.py, infer.py, model.pkl (gitignored)
+│   ├── enforce/           # seccomp.py, apparmor/
+│   ├── integrations/      # hook adapters
+│   └── cli/               # app.py, commands/, ui/
+├── sandbox/               # synthetic files for attack scenarios
+├── eval/                  # scenario harness, metrics
 └── tests/
 ```
 
 ## 7. Tech stack
+
 | Area | Choice |
 |---|---|
 | Language | Python 3.11+, uv |
 | Daemon | FastAPI + uvicorn |
 | CLI / TUI | Typer + Rich (v1) |
 | ML | LightGBM, scikit-learn, pandas, numpy. No embeddings, no torch |
-| Database | Supabase Postgres for `records`; local SQLite (WAL) for decisions, outcomes, runs; SQLAlchemy 2 + Alembic |
+| Database | local SQLite (WAL) for records, decisions, outcomes, runs; SQLAlchemy 2 + Alembic |
 | Enforcement | seccomp, AppArmor |
 | Integrations | OpenCode plugin and Claude Code hook (adapters only) |
 | Tests | pytest |
 
 ## 8. Phases (build order, each ends with its gate)
+
 | # | Module | Gate |
 |---|---|---|
 | 0 | Scaffold, data folders | pytest passes; `rootguard --version` runs; folders exist |
-| 1 | DB schema | migrations run on Postgres and SQLite; invalid enum rejected by the DB |
+| 1 | DB schema | migrations run on SQLite; invalid enum rejected by the DB |
 | 2 | Command classifier | 40+ table tests pass; unknown commands never rated safe |
 | 3 | Intent extractor + features | deterministic; extractor accuracy on labeled rows reported |
 | 4 | NL2Bash converter + validator + import | equal line counts; 0 schema failures; duplicates removed |
@@ -126,6 +140,7 @@ rootguard/
 Per phase: create the branch (section 9) -> write `docs/modules/NN-name.md` (no code) -> audit it against this file -> stop for "APPROVED NN" -> implement -> run the gate -> commit and write the PR title and description (section 9) -> stop for "NEXT".
 
 ## 9. Git workflow (trunk-based, solo)
+
 1. **Default branch is `main`.** Never create or use `master`. New repo: `git init -b main`, and check that `git config --global init.defaultBranch` returns `main`. If a repo still uses `master`, stop and ask, and do not rename remote branches.
 2. **Trunk-based, no `dev` branch.** Only `main` plus short-lived branches merged straight into `main`. `main` always passes its phase gates.
 3. **Branch names are `prefix/short-description`.** `feature/` for new functionality, `setup/` or `chore/` for scaffolding and tooling, `fix/` for bug fixes, `refactor/` for no behavior change, `hotfix/` for an urgent fix branched from `main`. Phase 0 uses `setup/project-init`, and every other phase uses `feature/<module>` (for example `feature/db-schema`).
@@ -139,6 +154,7 @@ Per phase: create the branch (section 9) -> write `docs/modules/NN-name.md` (no 
 11. **Agents and the author split the steps.** Agents branch, commit, push the feature branch (if a remote exists), write the PR title and description, and stop. The author merges and tags. After the author confirms the merge, the agent deletes the local branch with `git branch -d`, or `-D` after a squash merge because git doesn't see it as merged.
 
 ## 10. Rules
+
 1. Default deny: any error, missing model, malformed or inconclusive input means block.
 2. No LLM scores or judges commands. Agents are used offline to draft dataset rows only.
 3. Never train, tune or build features on heldout. Split by family_id.
@@ -153,7 +169,8 @@ Per phase: create the branch (section 9) -> write `docs/modules/NN-name.md` (no 
 12. Report only results from eval runs stored in the DB.
 
 ## 11. VERIFY before use
+
 - pyseccomp availability on Ubuntu 26.04 (apt lacked it earlier)
-- Supabase Postgres driver, free-tier limits and pause policy
+- SQLite driver availability and WAL mode support
 - Claude Code hook behavior and the OpenCode plugin API (`tool.execute.before`, `permission.ask`), from official docs
 - How each agent exposes the user's original request at hook time
