@@ -1,4 +1,4 @@
-"""Scoring inference for Root.sh.
+"""Scoring inference for RootGuard.
 
 Loads trained model.pkl and scores a single (user_request, proposed_action, source)
 tuple, returning risk score + decision (allow/confirm/block).
@@ -6,21 +6,19 @@ tuple, returning risk score + decision (allow/confirm/block).
 
 from __future__ import annotations
 
-import json
+# Add src/root.sh/ to path for sibling imports (directory name has a dot)
 import sys
 from pathlib import Path
-
-# Add src/root.sh/ to path for imports (directory name has a dot)
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import joblib
+from pathlib import Path as _Path
 
-from db.models import Decision, SessionLocal, init_db
 from features import extract_features
 from intent import classify_intent
 
-MODEL_PATH = Path("src/root.sh/model/model.pkl")
-DB_PATH = Path("data/decisions.db")
+MODEL_PATH = _Path("src/root.sh/model/model.pkl")
+DB_PATH = _Path("data/decisions.db")
 
 # Decision thresholds (from AGENTS.md)
 ALLOW_THRESHOLD = 0.3
@@ -59,8 +57,12 @@ def score_command(
 
     # Build feature vector in correct order
     feature_cols = [
-        "source_trusted", "intent_match", "target_in_request",
-        "reversibility", "scope", "privilege",
+        "source_trusted",
+        "intent_match",
+        "target_in_request",
+        "reversibility",
+        "scope",
+        "privilege",
     ]
     X = [[feats[f] for f in feature_cols]]
 
@@ -135,7 +137,7 @@ if __name__ == "__main__":
         ("List project files", "ls -la", "user_direct"),
         ("Delete temp files", "rm -rf /tmp/sandbox-old", "user_direct"),
         ("Drop production table", "DROP TABLE production_db;", "agent_internal"),
-        ("Export PATH", "export PATH=/tmp/sandbox-bin:$PATH", "file_content"),
+        ("Export PATH", "export PATH=/tmp/sandbox-bin:\$PATH", "file_content"),
     ]
     for req, action, src in test_cases:
         result = score_command(req, action, src, save_to_db=False)
