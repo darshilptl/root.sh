@@ -1,4 +1,4 @@
-# RootGuard — Project Progress
+# Root.sh — Project Progress
 
 **Project:** Beyond the Chatbox: Provenance-Based Defense Against Irreversible Prompt Injection in OS-Level Autonomous Agents  
 **Directory:** `/home/darshil/Desktop/Vs Project/Development/root.sh`  
