@@ -221,3 +221,57 @@ uv run python src/root.sh/model/train.py
 - Reproducible: `uv pip install -r requirements.txt` recreates same environment
 - Clean: delete `.venv` folder to start fresh
 - `uv venv .venv` creates it — uv does not auto-create without this command
+
+---
+### Stabilization (pre-Phase 8) — appended 2026-11-08
+
+This section records repairs completed before Phase 8. It does not replace the
+phase rules above.
+
+**Package layout.** Source moved from `src/root.sh/` to `src/rootguard/` because
+`root.sh` is not a valid Python identifier. The user-facing command remains
+`root.sh`, exposed via the `rootguard.cli:main` console script declared in
+`pyproject.toml` (quoted key `"root.sh"`). `python -m rootguard` also works.
+
+**Packaging.** Added `pyproject.toml` (setuptools build backend, `rootguard`
+package, `root.sh` console script, pytest dev dependency) and `alembic.ini`.
+Installed in editable mode: `uv pip install -e .`.
+
+**Classifier (new `rootguard/categories.py`).** Replaces the substring-based
+feature bugs. Parses each proposed command with `shlex` (never executes it) and
+derives `action_class`, `reversibility`, `scope`, `privilege`, targets, and a
+hard `catastrophic` predicate (rm -rf /, device writes, remote pipes into a
+shell, fork bombs, world-writable system paths, secret exfiltration, destructive
+SQL, etc.). Unknown commands are rated `other`/`reversibility=1` so they are
+never mistaken for safe.
+
+**Intent (`rootguard/intent.py`).** Rewritten with word-boundary rules and an
+explicit tie-break priority so `chmod +x run.sh` → `permission_change` (not
+`run_build_test`) and `perform task 0` → `other` (not `delete`).
+
+**Features (`rootguard/features.py`).** Now driven by `categories`; six
+features in the canonical order, `target_in_request` = -1 when no target.
+
+**Authorization (`rootguard/authz.py`).** Staged pipeline: safety floor >
+authorization > impact ceiling > repeat > score thresholds. The safety floor
+blocks catastrophic actions and unknown command classes *regardless of the model
+score*. This fixes the critical failure where `user_direct` overreach
+(`rm -rf /`, `cat /etc/shadow`, `curl | sh`, `scp ~/.ssh/id_rsa`, `chmod 777
+/etc/passwd`, `DROP TABLE production_db`) scored near-zero and was allowed.
+
+**Database (`rootguard/db/models.py`).** SQLite in WAL mode with foreign keys,
+DB-level check constraints on enum-like columns, `Decision`/`Outcome`/`Run`
+tables, and logging helpers (`log_decision`, `log_outcome`, `log_run`).
+
+**Daemon + inference (`rootguard/daemon.py`, `rootguard/model/infer.py`).**
+Single scoring service `score_command`. Strict validation: empty/malformed input
+and invalid sources → block; missing or corrupt model → block; every decision
+logged to SQLite; malformed requests return a 200 block response (not 422).
+
+**Tests.** `tests/` covers categories, intent, features, authz, db, cli, daemon.
+Gate: `pytest` → 64 passed. `root.sh --version` → `root.sh 0.7.1`.
+
+**Blocked / deferred.** Dataset repair and review (Phase 5) require the
+author's manual review capacity; the existing 2,012-row `records.jsonl` is
+unreviewed and filler-heavy and is not used for training. Pyseccomp, AppArmor,
+and agent-hook verification are deferred to Phase 9/10.

@@ -7,12 +7,8 @@ Per AGENTS.md Rule 12: Report only results from eval runs stored in the DB.
 from __future__ import annotations
 
 import json
-import sys
 from datetime import datetime, timezone
 from pathlib import Path
-
-# Add src/root.sh/ to path for imports (directory name has a dot)
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import joblib
 import lightgbm as lgbm
@@ -20,20 +16,16 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import (
     accuracy_score,
-    classification_report,
     f1_score,
     precision_score,
     recall_score,
     roc_auc_score,
 )
 
-from db.models import Run, SessionLocal, init_db
-from features import extract_features
-from intent import classify_intent
-
-DATASET_PATH = Path("data/dataset/records.jsonl")
-MODEL_PATH = Path("src/root.sh/model/model.pkl")
-DB_PATH = Path("data/decisions.db")
+from rootguard.config import DATASET_PATH, MODEL_PATH
+from rootguard.db.models import Run, init_db, log_run
+from rootguard.features import extract_features
+from rootguard.intent import classify_intent
 
 
 def load_data() -> tuple[pd.DataFrame, pd.DataFrame]:
@@ -201,12 +193,11 @@ def train_and_evaluate() -> dict:
 
     # Save results to SQLite
     init_db()
-    session = SessionLocal()
 
     run_id = f"run_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}"
 
     # Save LightGBM run
-    lgbm_run = Run(
+    log_run(
         id=f"{run_id}_lightgbm",
         model_name="lightgbm",
         split="heldout",
@@ -216,10 +207,9 @@ def train_and_evaluate() -> dict:
         f1=lgbm_metrics["f1"],
         auc_roc=lgbm_metrics["auc_roc"],
     )
-    session.add(lgbm_run)
 
     # Save Logistic Regression run
-    lr_run = Run(
+    log_run(
         id=f"{run_id}_logistic_regression",
         model_name="logistic_regression",
         split="heldout",
@@ -229,10 +219,8 @@ def train_and_evaluate() -> dict:
         f1=lr_metrics["f1"],
         auc_roc=lr_metrics["auc_roc"],
     )
-    session.add(lr_run)
 
-    session.commit()
-    session.close()
+    print(f"\nResults saved to SQLite (run_id: {run_id})")
 
     print(f"\nResults saved to SQLite (run_id: {run_id})")
 

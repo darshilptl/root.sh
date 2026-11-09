@@ -2,15 +2,15 @@
 
 **Project:** Beyond the Chatbox: Provenance-Based Defense Against Irreversible Prompt Injection in OS-Level Autonomous Agents  
 **Directory:** `/home/darshil/Desktop/Vs Project/Development/root.sh`  
-**Branch:** `feature/daemon-authz` (merged to `main`)  
-**Last Updated:** Tue Oct 27 2026
+**Branch:** `fix/pre-phase8-stabilization`  
+**Last Updated:** Sun Nov 08 2026
 
 ---
 
 ## Current Status
 
-**Phase 7 Complete** — Daemon + Staged Authorization finished  
-**Overall Progress:** 7 of 11 phases complete (~64%)
+**Pre-Phase 8 stabilization in progress** — repairs and gates verified, Phase 8 not yet started.  
+**Overall Progress:** Phases 0–4 scaffolded; Phases 5–7 gates require dataset repair/review before they can be considered complete.
 
 ---
 
@@ -18,159 +18,35 @@
 
 | Phase | Module | Status | Key Deliverable |
 |-------|--------|--------|-----------------|
-| 0 | Scaffold | Complete | Folder structure, AGENTS.md, .gitignore |
-| 1 | DB Schema | Complete | SQLAlchemy models, SQLite (WAL) |
-| 2 | Command Classifier | Complete | 17 intent classes, rule-based extractor |
-| 3 | Intent Extractor + Features | Complete | Six features extracted deterministically |
-| 4 | NL2Bash Converter | Complete | `data/processed/nl2bash.jsonl` (80 rows) |
-| 5 | Dataset Generation | Complete | `data/dataset/records.jsonl` (2,012 rows, 563 families) |
-| 6 | Train + Evaluate | Complete | LightGBM F1 0.991, Logistic Regression F1 0.991 |
-| **7** | **Daemon + Staged Authz** | **Complete** | FastAPI + POST /score, default deny |
+| 0 | Scaffold, data folders | Complete | Folder structure, AGENTS.md, `.gitignore`, `pyproject.toml`, `root.sh` console script |
+| 1 | DB schema | Partial | SQLAlchemy models + Alembic migrations; WAL, foreign keys, check constraints; `Decision`/`Outcome`/`Run` tables |
+| 2 | Command classifier | Complete | `rootguard/categories.py`: `action_class`, `reversibility`, `scope`, `privilege`, catastrophic predicate; never executes commands |
+| 3 | Intent extractor + features | Complete | `rootguard/intent.py` (word-boundary rules + tie-break), `rootguard/features.py` (six canonical features) |
+| 4 | NL2Bash converter | Partial | `rootguard/datagen/convert_nl2bash.py`, `data/processed/nl2bash.jsonl` (80 rows) |
+| 5 | Dataset generation, review, split freeze | **Blocked** | `data/dataset/records.jsonl` exists (2,012 rows, all unreviewed); counterfactual quartet repair not yet implemented; author review capacity required |
+| 6 | Train + evaluate | Partial | `rootguard/model/train.py` updated to new package paths; not re-run against repaired dataset |
+| 7 | Daemon + staged authz | Complete | `rootguard/daemon.py`, `rootguard/model/infer.py`, `rootguard/authz.py`; strict validation, default deny, decision logging |
 
 ---
 
-## Dataset Summary
+## Stabilization repairs (pre-Phase 8, verified 2026-11-08)
 
-| Metric | Value |
-|--------|-------|
-| Total rows | 2,012 |
-| Train rows | 1,632 (456 families) |
-| Heldout rows | 380 (107 families) |
-| Label split | Risky: 1,208 (60%) / Safe: 804 (40%) |
-| Patterns | 7 attack patterns + NL2Bash |
-| Families | 563 total |
+- **Packaging:** `pyproject.toml` with `rootguard` package, `"root.sh"` console script, pytest dev dep; `alembic.ini`; installed `uv pip install -e .`; `root.sh --version` → `root.sh 0.7.1`.
+- **Safety floor (critical fix):** `user_direct` overreach now blocked: `rm -rf /`, `cat /etc/shadow`, `curl ... | sh`, `scp ~/.ssh/id_rsa`, `chmod 777 /etc/passwd`, `DROP TABLE production_db` all return `block` regardless of model score.
+- **Database:** WAL mode, foreign keys, DB-level enum check constraints, `log_decision`/`log_outcome`/`log_run` helpers.
+- **Daemon/inference:** single `score_command` service; empty/malformed input and invalid sources → block; missing/corrupt model → block; malformed requests return 200 block (not 422); every decision logged.
+- **Tests:** `tests/` — 64 passed (`pytest`).
 
 ---
 
-## Model Results (Heldout — Evaluated Once)
+## Blocked / deferred
 
-| Model | Accuracy | Precision | Recall | F1 | AUC-ROC |
-|-------|----------|-----------|--------|----|---------|
-| LightGBM | 0.989 | 1.000 | 0.982 | 0.991 | 0.9999 |
-| Logistic Regression | 0.989 | 1.000 | 0.982 | 0.991 | 0.9996 |
-
-**Decision:** LightGBM advantage <0.1% over Logistic Regression. Both perform identically. LightGBM retained as primary for feature importance.
+- Dataset repair/review (Phase 5) requires author's manual review capacity; existing 2,012-row `records.jsonl` is unreviewed and filler-heavy and is not used for training.
+- Pyseccomp, AppArmor, and agent-hook verification deferred to Phase 9/10.
 
 ---
 
-## Per-Pattern Heldout Results (LightGBM)
+## Git
 
-| Pattern | Rows | Accuracy | Precision | Recall | F1 |
-|---------|------|----------|-----------|--------|----|
-| env-poison | 52 | 1.000 | 1.000 | 1.000 | 1.000 |
-| param-escape | 52 | 1.000 | 1.000 | 1.000 | 1.000 |
-| file-injection | 52 | 1.000 | 1.000 | 1.000 | 1.000 |
-| halluc-destructive | 52 | 1.000 | 1.000 | 1.000 | 1.000 |
-| agent-deviation | 52 | 1.000 | 1.000 | 1.000 | 1.000 |
-| priv-escalation | 52 | 1.000 | 1.000 | 1.000 | 1.000 |
-| exfil-remote-exec | 52 | 1.000 | 1.000 | 1.000 | 1.000 |
-
-All 7 patterns achieve perfect F1 on heldout.
-
----
-
-## Model Files
-
-| File | Purpose | Size |
-|------|---------|------|
-| `src/root.sh/model/train.py` | Training script | ~8 KB |
-| `src/root.sh/model/infer.py` | Scoring inference | ~4.5 KB |
-| `src/root.sh/features.py` | Six feature extraction | ~8 KB |
-| `src/root.sh/intent.py` | Intent class extractor | ~3.8 KB |
-| `src/root.sh/db/models.py` | SQLite models | ~2.7 KB |
-| `src/root.sh/model/model.pkl` | Trained model (gitignored) | ~181 KB |
-| `src/root.sh/daemon.py` | FastAPI daemon + POST /score | ~119 lines |
-| `src/root.sh/authz.py` | Staged authorization (pure functions) | ~48 lines |
-
----
-
-## Daemon Endpoint
-
-**POST /score**
-
-Input: `{user_request, proposed_action, source}`  
-Output: `{decision, risk_score, reason, features, intent_class}`
-
-| Decision | Risk Score Range |
-|----------|-----------------|
-| allow | < 0.3 |
-| confirm | 0.3 – 0.7 |
-| block | > 0.7 |
-
-Every call logged to SQLite (`data/decisions.db`). Default deny on any error.
-
----
-
-## How to Test
-
-```bash
-cd /home/darshil/Desktop/Vs Project/Development/root.sh
-source .venv/bin/activate
-PYTHONPATH=src/root.sh python -c "
-from daemon import app
-from fastapi.testclient import TestClient
-client = TestClient(app)
-resp = client.post('/score', json={
-    'user_request': 'List project files',
-    'proposed_action': 'ls -la',
-    'source': 'user_direct'
-})
-print(resp.json())
-"
-```
-
-**Expected output:**
-```
-{'decision': 'allow', 'risk_score': 0.030..., 'reason': 'action matches request, user_direct source', ...}
-```
-
----
-
-## Key Files
-
-| File | Purpose |
-|------|---------|
-| `data/dataset/records.jsonl` | 2,012 labeled rows (all 15 fields) |
-| `data/dataset/families.json` | 563 family metadata |
-| `data/decisions.db` | SQLite decision/eval logs |
-| `src/root.sh/model/model.pkl` | Trained LightGBM model (gitignored) |
-| `requirements.txt` | 17 pinned dependencies |
-| `.venv/` | Python virtual environment (gitignored) |
-
----
-
-## Honest Limitations
-
-| Issue | Impact |
-|-------|--------|
-| 2,012 rows total | Small for GBDT; per-pattern heldout only ~52 rows |
-| NL2Bash only 80 rows, all safe | Label imbalance; no risky NL2Bash examples |
-| No real command execution | Cannot verify real-world behavior |
-| No LLM baseline comparison | Only LR vs LightGBM compared |
-
----
-
-## Next Phase (Phase 8 — Not Started)
-
-**Scenario Harness:**
-- Run each attack pattern through undefended agent
-- Run each attack through defended agent
-- Verify blocked/confirmed actions
-- Metrics from DB only
-
----
-
-## Files Changed in This Session
-
-| File | Change |
-|------|--------|
-| `src/root.sh/authz.py` | New - Staged authorization pure functions |
-| `src/root.sh/daemon.py` | New - FastAPI daemon with POST /score |
-| `src/root.sh/model/infer.py` | Updated - Fixed imports for dot directory name |
-| `docs/modules/07-daemon-authz.md` | New - Phase 7 module documentation |
-| `AGENTS.md` | Updated - User-verification-before-commit rule |
-| `requirements.txt` | Updated - Added fastapi, uvicorn |
-| `docs/summary.md` | Updated - root.sh naming |
-| `docs/notes/*.md` | Updated - root.sh naming |
-
----
+- Branch `fix/pre-phase8-stabilization` from clean `main` at `3f7348b`. All stabilization changes uncommitted, pending user sign-off.
+- Stale local branches `feature/daemon-authz`, `feature/model-training` remain unmerged.
